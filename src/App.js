@@ -1,20 +1,19 @@
 import "./App.css";
-
+import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
+        <Weather />
         <footer>
-          This project is created by Kome Olomu and is{" "}
           <a
             href="https://github.com/KomeOlomu/react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
-            open-sourced on Github
-          </a>
+            Open-source code{" "}
+          </a>{" "}
+          by Kome Olomu
         </footer>
       </div>
     </div>
